@@ -1,0 +1,1 @@
+This is a standard "power page" for people holding events and lectures on various topics. It was made on pure HTML and CSS. Such pages are placed by experts on subdomains of sites, and information about ongoing courses, webinars or conferences is published on them
