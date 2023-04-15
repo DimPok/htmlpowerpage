@@ -1,0 +1,234 @@
+body {
+   padding: 0;
+   margin: 0; 
+   font-family: cursive;
+}
+
+.baseelement {
+    min-height: 98vh;
+    background-color: #7a9ec7;
+    color: white;
+    display: inline-block;
+}
+
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 23px 31px;
+}
+
+.navigator .ssilki a {
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 1.2rem;
+}
+
+.navigator p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.navigator .nabor {
+    background-color: white;
+    color: #7a9ec7;
+    padding: 15px 23px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.navigator .nabor:hover {
+    opacity: 0.7;
+}
+
+.baseelement-content {
+    padding: 0 14%;
+}
+
+.tagline {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 2px;
+    padding: 32px 0;
+    
+}
+
+
+.two-columns-section {
+    font-size: 1.2rem;
+}
+
+
+.two-columns-section > p {
+    width: 45%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    float: left;
+
+}
+
+
+.two-columns-section .detali {
+    width: 45%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.two-columns-section .detali li {
+    width: 50%;
+    float: left;
+    font-size: 1.10rem;
+    margin: 8px 0;
+}
+
+.primechaniya {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.primechaniya-content {
+    padding: 0 14%;
+}
+
+.two-columns-section .obnovlenie {
+    width: 50%;
+    float: left;
+}
+
+
+.obnovlenie-info {
+    font-size: 1.4rem;
+}
+
+
+.obnovlenie-text {
+    font-size: 1.15rem;
+}
+
+
+.obnovlenie .obnovlenie-data {
+    font-size: 0.9rem;
+    color: darkgray;
+    margin-bottom: 30px;
+}
+
+
+.obnovlenie p {
+    margin: 7.5px 0;
+}
+
+
+.raspisanie {
+    background-color: #9bcbf3;
+    padding: 60px 0;
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+.raspisanie-content {
+    padding: 0 15%;
+    color: white;
+}
+
+
+.raspisanie-card {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+
+
+footer a {
+    color: white;
+}
+
+
+.podval-content {
+    text-align: center;
+}
+
+
+footer img {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin: 0 7px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .baseelement-content,
+    .raspisanie-content,
+    .obnovlenie-info {
+        padding: 0 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .tagline {
+        font-size: 3.5rem;
+    }
+
+    .two-columns-section > p {
+        width: 100%;
+    }
+
+    .two-columns-section .detali {
+        width: 100%;
+    }
+
+    .two-columns-section .primechaniya {
+        width: 100%;
+    }
+
+    .section-headings {
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .tagline {
+        font-size: 2.5rem;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .ssilki {
+        display: none;
+    }
+}
+
+
+
+
+
+
